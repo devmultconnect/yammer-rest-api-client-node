@@ -128,6 +128,7 @@ Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 Changelog
 =========
+* **Version 0.2.8**: Added accept and content-type to request headers to fix XML response
 * **Version 0.2.7**: Added users.in_group, clean-up naming replaces users for users
 * **Version 0.2.6**: Users replacing User. Added support for relationships by @webmutation
 * **Version 0.2.5**: Added support for threads by @tbenade
