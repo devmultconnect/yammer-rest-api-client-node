@@ -16,7 +16,7 @@ Currently, the following are supported:
 * Topics: 100 %
 * Notifications: 25%
 * Likes: 0 %
-* Group memberships: 0 %
+* Group memberships: 100 %
 * Relationships: 100 %
 * Suggestion: 0 %
 * Threads: 100 %
@@ -102,6 +102,10 @@ The following methods are supported:
 ###Notifications:
 * notifications.get(params, callback)
 
+###Group Memberships:
+* groupmemberships.join(params, callback)
+* groupmemberships.leave(id, callback)
+
 Methods that support additional URL (GET style) parameters such as [messages.all or messages.received](https://developer.yammer.com/api/#message-viewing), they are provided in the params structure using the same field names as described in the official Yammer API. 
 
 Methos that require JSON structures such as [user.create](https://developer.yammer.com/api/#users) will be provided such structures also in the position of the params parameter. Since the structures vary depending on the API method please consult the documentation for each, as the client does not perform any kind of parameter and value checks before sending the data and will not warn you if the structure is incorrect.
@@ -128,6 +132,7 @@ Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 Changelog
 =========
+* **Version 0.2.11**: Added support for the Group memberships API
 * **Version 0.2.9**: Added accept and content-type to request headers to fix XML response
 * **Version 0.2.8**: Added apply_topic and remove_topic
 * **Version 0.2.7**: Added users.in_group, clean-up naming replaces users for users
