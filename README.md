@@ -132,6 +132,7 @@ Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 Changelog
 =========
+* **Version 0.2.12**: Alter API Host to api.yammer.com
 * **Version 0.2.11**: Added support for the Group memberships API
 * **Version 0.2.9**: Added accept and content-type to request headers to fix XML response
 * **Version 0.2.8**: Added apply_topic and remove_topic
